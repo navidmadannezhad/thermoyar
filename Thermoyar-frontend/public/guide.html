@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>راهنما</title>
+
+  <link rel="stylesheet" href="./styles/css/customCssFiles/custom.css">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="/panel/dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+  <!-- bootstrap rtl -->
+  <link rel="stylesheet" href="/panel/dist/css/bootstrap-rtl.min.css">
+  <!-- template rtl version -->
+  <link rel="stylesheet" href="/panel/dist/css/custom-style.css">
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#"><i class="fa fa-bars"></i></a>
+      </li>
+    </ul>
+
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div>
+        <!-- Sidebar user panel (optional) -->
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+          <div class="info">
+            <a href="#" class="d-block">ترمویار</a>
+          </div>
+        </div>
+
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            <li class="nav-item">
+              <a href="tables.html" class="nav-link">
+                <i class="fas fa-square-root-alt"></i>
+                <p>
+                  جداول آنلاین  
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="guide.html" class="nav-link" style="background-color:#ff373e;">
+                <i class="fas fa-book-open"></i>
+                <p>
+                  راهنما
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="us.html" class="nav-link">
+                <i class="fas fa-users"></i>
+                <p>
+                    درباره ما
+                </p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+      </div>
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-dark">راهنما</h1>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <div class="content">
+      
+
+      <div class="navigation-header">
+        <button onclick="scrollTo_EstefadeAzJadavelSection()">
+          نحوه استفاده از جداول
+        </button>
+        <button onclick="scrollTo_toziheKolliSection()">
+          توضیح کامل تر
+        </button>
+      </div>
+
+      <div class="estefade-az-jadavel guide-section">
+        <h2>نحوه استفاده از جداول</h2>
+        <ul>
+          <li>
+            <p class="title">جدول اشباع</p>
+            <p> این جدول، ویژگی های ماده مورد نظر رو، در بازه اشباع یا بخار مرطوب به ما میده. کافیه فشار یا دمای ماده مورد نظر رو بهش بدیم تا نتیجه رو بهمون ارائه کنه. از اونجایی که هر دمایی، با فشار مختص به خودش برابری می‌کنه، این جدول فقط یک ورودی می‌گیره و هرچیزی رو که بخوایم برامون محاسبه می‌کنه.</p>
+          </li>
+          <li>
+            <p class="title">جدول مافوق گرم</p>
+            <p>
+              برای بدست آوردن ویژگی های ماده در بازه مافوق گرم، باید اول خط عمودی یا فشارش رو مشخص کنیم. سپس کافیه دمای دلخواهمون رو وارد کنیم و در نهایت، بعد از مشخص کردن اینکه “چی میخوایم” نتیجه مورد نظرمون رو محاسبه می‌کنیم.
+            </p>
+          </li>
+          <li>
+            <p class="title">جدول مادون سرد</p>
+            <p>دقیقا مثل مافوق گرم، برای بدست آوردن ویژگی های ماده در بازه مادون سرد، باید اول خط عمودی یا فشارش رو مشخص کنیم. سپس کافیه دمای دلخواهمون رو وارد کنیم و در نهایت، بعد از مشخص کردن اینکه “چی میخوایم” نتیجه مورد نظرمون رو محاسبه می‌کنیم.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="tozihe-kolli guide-section">
+        <h2>توضیح کامل تر</h2>
+        <p>
+          هر ماده خالص، از نظر ترمودینامیکی می‌تونه تو ۵ حالت مختلف وجود داشته باشه:
+        </p>
+        <ol>
+          <li>مادون سرد یا ompressed</li>
+          <li>مایع اشباع یا saturated fluid</li>
+          <li>بخار مرطوب</li>
+          <li>بخار اشباع یا saturated vapor</li>
+          <li>بخار فوق داغ یا super heated vapor</li>
+        </ol>
+        <p>خب حالا اصلا اینا چی هستن؟ چرا اینقدر داغونه اسماشون؟</p>
+        <p>بیا نمودار زیر رو تحلیل کنیم تا درکشون راحت تر باشه:</p>
+        <img src="./styles/images/pic.png" alt="TV diagram">
+        <p>حالت هایی که راجبشون بالاتر صحبت کردیم رو می‌تونیم تو نموداربالا مشاهده کنیم. هر کدوم از خطوط عمودی (که بالای هرکدوم یک P نوشته شده) نمایانگر ماده در فشار های مختلفه. مثلا خط فشار P1 در نظر بگیرین. این خط به ما میگه اگه ماده مورد نظر رو تو یک ظرف با فشار ثابت P1 بریزیم و نمه نمه دما رو بالا ببریم به ترتیب اتفاقات زیر میفته:</p>
+        <ul>
+          <li>
+            <p class="title">از A تا B: در این بازه، ماده در حالت مادون سرد قرار داره. جایی که کاملا مایع هست و هیچ بخاری در اون مشاهده نمیشه. از اینجا دما رو زیاد می‌کنیم تا می‌رسیم به نقطه B. نقطه B، نقطه مایع اشباع نام داره و نقطه ای هست که مایع دراون شروع به بخار شدن می‌کنه.</p>
+          </li>
+          <li>
+            <p class="title">
+              از B تا C: ماده در این بازه، در حالت اشباع یا بخار مرطوب خواهد بود. در این بازه، ما هم شاهد بخار و هم شاهد مایع هستیم، هرچی جلو تر بریم، مایع کمتر و بخار بیشتر میشه. اما نکته مهم اینجاست که در این بازه دما زیاد نمیشه! و فرآیند تبخیر شدن، کاملا با افزایش حجم اتفاق میفته. جلو میریم و میریم تا به نقطه C می‌رسیم. نقطه بخار اشباع، جایی که مایع کاملا به بخار تبدیل شده و یک قطره مایع هم تو ظرف ما نمونده.
+            </p>
+          </li>
+          <li>
+            <p class="title">
+              از C تا D: از نقطه بخار اشباع کار رو ادامه میدیم و دما مجددا شروع به بالا رفتن می‌کنه. در این بازه، ما در حالت مافوق گرم یا سوپرهیت هستیم. نقطه D، می‌تونه تا بینهایت ادامه داشته باشه (البته منظور از بینهایت، مقادیر بسیار بالاست) و این حالت انتهایی ای هست که ماده می‌تونه در اون حضور داشته باشه.
+            </p>
+          </li>
+        </ul>
+        <p>دو نکته رو در مورد این نمودار باید در نظر داشته باشیم:</p>
+        <ul>
+          <li>
+            منحنی ای که میبینین، نشون دهنده الگویی هست که خطوط عمودی فشار بر طبق اون رسم می‌شن. اگه دقت کنین میبینین که هرچی فشار بالا تر می‌ره طول بازه بخار مرطوب یا اشباع کمتر میشه. در انتهای بالای منحنی، شاهد نقطه ای به نام نقطه بحرانی هستیم که در اون نقطه، هیچ حالت اشباعی وجود نداره و مایع مادون سرد، بلافاصله به بخار مافوق گرم تبدیل میشه.
+          </li>
+          <li>
+            ما اینطور نموداری رو برای فشار و حجم هم داریم. یعنی خطوط عمودی بر حسب دما خواهند بود و محور های نمودار، بر حسب P و V. از اینجا نتیجه می‌گیریم که هر دمایی از یک ماده، یک فشار متناظر با خودش داره که باعث اشباع شدنش میشه. ساده بگیم، اگه آب رو تو فشار ۰.۰۶ کیلوپاسکال قرار بدیم و دما رو روی ۰.۰۱ درجه سیلیوس تنظیم کنیم، به آب اشباع خواهیم رسید.
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+    <div class="p-3">
+      <h5>Title</h5>
+      <p>Sidebar content</p>
+    </div>
+  </aside>
+  <!-- /.control-sidebar -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <!-- To the right -->
+  
+    <!-- Default to the left -->
+    <strong>انجمن علمی مهندسی مکانیک - دانشگاه آزاد کرج</strong>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="panel/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="panel/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="panel/dist/js/adminlte.min.js"></script>
+<!-- Custom js -->
+<script>
+  /* Scroll into sections in guide */
+  let estefadeJadvalSection = document.querySelector('.estefade-az-jadavel');
+  let toziheKolli = document.querySelector('.tozihe-kolli');
+
+  function scrollTo_EstefadeAzJadavelSection(){
+    estefadeJadvalSection.scrollIntoView({ 
+      behavior: 'smooth' 
+    });
+  }
+
+  function scrollTo_toziheKolliSection(){
+    toziheKolli.scrollIntoView({ 
+      behavior: 'smooth' 
+    });
+  }
+  
+
+</script>
+</body>
+</html>

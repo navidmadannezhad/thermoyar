@@ -1,0 +1,150 @@
+/* Fonts */
+/* Flexes */
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/eot/IRANSansWeb_Black.eot");
+  src: url("../fonts/eot/IRANSansWeb_Black.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/IRANSansWeb_Black.woff2") format("woff2"), url("../fonts/woff/IRANSansWeb_Black.woff") format("woff"), url("../fonts/ttf/IRANSansWeb_Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/eot/IRANSansWeb_Bold.eot");
+  src: url("../fonts/eot/IRANSansWeb_Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/IRANSansWeb_Bold.woff2") format("woff2"), url("../fonts/woff/IRANSansWeb_Bold.woff") format("woff"), url("../fonts/ttf/IRANSansWeb_Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/eot/IRANSansWeb_Medium.eot");
+  src: url("../fonts/eot/IRANSansWeb_Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/IRANSansWeb_Medium.woff2") format("woff2"), url("../fonts/woff/IRANSansWeb_Medium.woff") format("woff"), url("../fonts/ttf/IRANSansWeb_Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/eot/IRANSansWeb_Light.eot");
+  src: url("../fonts/eot/IRANSansWeb_Light.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/IRANSansWeb_Light.woff2") format("woff2"), url("../fonts/woff/IRANSansWeb_Light.woff") format("woff"), url("../fonts/ttf/IRANSansWeb_Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/eot/IRANSansWeb_UltraLight.eot");
+  src: url("../fonts/eot/IRANSansWeb_UltraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/IRANSansWeb_UltraLight.woff2") format("woff2"), url("../fonts/woff/IRANSansWeb_UltraLight.woff") format("woff"), url("../fonts/ttf/IRANSansWeb_UltraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/eot/IRANSansWeb.eot");
+  src: url("../fonts/eot/IRANSansWeb.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/IRANSansWeb.woff2") format("woff2"), url("../fonts/woff/IRANSansWeb.woff") format("woff"), url("../fonts/ttf/IRANSansWeb.ttf") format("truetype");
+}
+
+html {
+  font-family: 'IRANSans' !important;
+}
+
+* {
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background-repeat: no-repeat;
+  background: #000000;
+  background: linear-gradient(45deg, #3d3d3d, #000000);
+  background-size: cover;
+  -webkit-animation-name: gradient;
+          animation-name: gradient;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  background-size: 400% 400%;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* Landing Page -- start */
+div.intro {
+  color: white;
+  text-align: center;
+}
+
+div.intro h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  text-shadow: 0px 5px 5px black;
+}
+
+div.intro p {
+  color: #8d8d8d;
+  padding: 10px 0px 25px 0px;
+}
+
+div.intro a {
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  text-decoration: none;
+  background-color: #ff373e;
+  -webkit-box-shadow: 0px 3px 1px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 1px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+div.intro a:hover {
+  background-color: #ff1e26;
+}
+
+div.intro a:active {
+  -webkit-box-shadow: 0px 3px 1px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 3px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translate(0, 3px);
+          transform: translate(0, 3px);
+}
+
+@-webkit-keyframes gradient {
+  from {
+    background-position: center;
+  }
+  to {
+    background-position: left;
+  }
+}
+
+@keyframes gradient {
+  from {
+    background-position: center;
+  }
+  to {
+    background-position: left;
+  }
+}
+/*# sourceMappingURL=main.css.map */

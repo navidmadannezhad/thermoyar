@@ -1,0 +1,14 @@
+/* Fonts */
+$font1: 5rem;
+$font2: 1.5rem;
+$font3: 1rem;
+$font4: 0.8rem;
+
+
+
+/* Flexes */
+@mixin flex-row-justify-center-align-center{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}

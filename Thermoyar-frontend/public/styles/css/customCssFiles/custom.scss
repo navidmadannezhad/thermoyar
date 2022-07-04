@@ -1,0 +1,31 @@
+@import 'tables';
+@import 'us';
+@import 'guide';
+@import '../fonts';
+@import '../shortHands';
+
+*{
+    color: white;
+}
+
+div.content-wrapper , nav.main-header , .main-footer{
+    background-color: #454545 !important;
+}
+
+div.content-header{
+    h1{
+        color: white !important;
+    }
+}
+
+footer.main-footer{
+    border-top: 1px solid #ff383f;
+}
+
+nav.main-header{
+    border-bottom: 1px solid #ff383f;
+}
+
+aside.main-sidebar{
+    background-color: #242424;
+}

@@ -1,0 +1,71 @@
+div.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    div.navigation-header{
+        width: 90%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        button{
+            color: rgb(182, 182, 182);
+            border: none;
+            background-color: transparent;
+            padding: 10px 0px;
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+        button:hover{
+            color: white;
+        }
+    }
+
+    div.guide-section{
+        width: 90%;
+        ul{
+            list-style: none;
+        }
+        p.title{
+            display: inline;
+            padding:0px 20px 20px 0px;
+        }
+        ul li::before {
+            content: "\2022";
+            color: red; 
+            font-weight: bold; 
+            display: inline-block; 
+            width: 1em; 
+            margin-left: -1em; 
+          }
+        h2{
+            margin: 50px 0px 20px 0px;
+            color: rgb(182, 182, 182);
+        }
+        img{
+            width: 50%;
+            margin-bottom:20px;
+        }
+    }
+
+    div.tozihe-kolli{
+        ul li{
+            margin-top: 20px;
+        }
+    }
+
+}
+
+
+/* Media queries --- */
+@media only screen and (max-width: 1000px){
+    div.content{
+        div.guide-section{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

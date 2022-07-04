@@ -1,0 +1,46 @@
+div#us{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    div.us-content{
+        margin: 50px 0px;
+        width: 80%;
+        text-align: center;
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        p:first-of-type{
+            margin-top: 20px;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+        a.ksme-contact{
+            animation: blink 0.5s infinite alternate-reverse;
+            text-decoration: none;
+            color: #ff373e;
+            font-weight: bold;
+            display: inline-block;
+            transition: all 0.5s;
+        }
+        a.ksme-contact:hover{
+            text-shadow: 0px 2px 15px #ff373e;
+        }
+    }
+}
+
+@media only screen and (min-width: 1000px){
+
+}
+
+
+/* Animations --- */
+@keyframes blink{
+    from{
+        opacity: 0.7;
+    }
+    to{
+        opacity: 1;
+    }
+}
